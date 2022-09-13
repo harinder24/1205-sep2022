@@ -11,6 +11,7 @@ void quiz1WithDouble()
 	double result3 = (thirdFahrenheit - 32.0) * 5 / 9;
 
 	std::cout << "\n" << firstFahrenheit << " changes to " << result1 << ", " << secondFahrenheit << " changes to " << result2 << " and " << thirdFahrenheit << " changes to " << result3 << "\n";
-
+	
 
 }
+//reyhrhy
