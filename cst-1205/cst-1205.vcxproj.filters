@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\assignment1">
+      <UniqueIdentifier>{134d789c-a0fe-4c26-aac2-8bfdfda76068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assignment2">
+      <UniqueIdentifier>{aad62089-568b-426e-863a-288c53b65ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\week2quiz1">
+      <UniqueIdentifier>{7e76a68b-a284-4b4f-a585-e3b89d4a1e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\week2lab1">
+      <UniqueIdentifier>{6b4d2dff-0a22-4cc2-b381-3372ac13d70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\week2lab2">
+      <UniqueIdentifier>{9d6fc602-942e-4d09-ab25-e4f413144778}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cst-1205.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment1.cpp">
+      <Filter>Source Files\assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2.cpp">
+      <Filter>Source Files\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="week2lab1.cpp">
+      <Filter>Source Files\week2lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="week2quiz1.cpp">
+      <Filter>Source Files\week2quiz1</Filter>
+    </ClCompile>
+    <ClCompile Include="week2lab2.cpp">
+      <Filter>Source Files\week2lab2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assignment1.h">
+      <Filter>Source Files\assignment1</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2.h">
+      <Filter>Source Files\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="week2lab1.h">
+      <Filter>Source Files\week2lab1</Filter>
+    </ClInclude>
+    <ClInclude Include="week2quiz1.h">
+      <Filter>Source Files\week2quiz1</Filter>
+    </ClInclude>
+    <ClInclude Include="week2lab2.h">
+      <Filter>Source Files\week2lab2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
