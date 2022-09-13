@@ -14,4 +14,3 @@ void quiz1WithDouble()
 	
 
 }
-//reyhrhyhtht
