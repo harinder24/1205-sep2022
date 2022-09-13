@@ -16,10 +16,13 @@
     <Filter Include="Source Files\quiz1_harinderpal_sran">
       <UniqueIdentifier>{886ce9e5-8245-42e0-81d7-15c6e8b3e6b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\quiz1withdouble">
+    <Filter Include="Source Files\week2lab2">
+      <UniqueIdentifier>{373148cd-6521-4ef2-99cb-c2d5e2097666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\week2lab1">
       <UniqueIdentifier>{5053dd71-2a09-4d18-bded-acf80f455ecc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\assignment1">
+    <Filter Include="Source Files\assignment1_harinderpal_sran">
       <UniqueIdentifier>{7d350877-f4a4-4853-bdc7-951caddc248e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -28,24 +31,30 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="quiz1WithDouble.cpp">
-      <Filter>Source Files\quiz1withdouble</Filter>
+      <Filter>Source Files\week2lab1</Filter>
     </ClCompile>
     <ClCompile Include="quiz1.cpp">
       <Filter>Source Files\quiz1_harinderpal_sran</Filter>
     </ClCompile>
     <ClCompile Include="assignment1_harinderpal_sran.cpp">
-      <Filter>Source Files\assignment1</Filter>
+      <Filter>Source Files\assignment1_harinderpal_sran</Filter>
+    </ClCompile>
+    <ClCompile Include="week2lab2.cpp">
+      <Filter>Source Files\week2lab2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="quiz1WithDouble.h">
-      <Filter>Source Files\quiz1withdouble</Filter>
+      <Filter>Source Files\week2lab1</Filter>
     </ClInclude>
     <ClInclude Include="quiz1.h">
       <Filter>Source Files\quiz1_harinderpal_sran</Filter>
     </ClInclude>
     <ClInclude Include="assignment1_harinderpal_sran.h">
-      <Filter>Source Files\assignment1</Filter>
+      <Filter>Source Files\assignment1_harinderpal_sran</Filter>
+    </ClInclude>
+    <ClInclude Include="week2lab2.h">
+      <Filter>Source Files\week2lab2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -143,11 +143,13 @@
     <ClCompile Include="assignment1_harinderpal_sran.cpp" />
     <ClCompile Include="quiz1WithDouble.cpp" />
     <ClCompile Include="quiz1.cpp" />
+    <ClCompile Include="week2lab2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1_harinderpal_sran.h" />
     <ClInclude Include="quiz1WithDouble.h" />
     <ClInclude Include="quiz1.h" />
+    <ClInclude Include="week2lab2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
