@@ -1,20 +1,22 @@
 // cst-1205.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-#include "assignment1.h"
-#include "week2quiz1.h"
-#include "week2lab1.h"
-#include "week2lab2.h"
-#include "assignment2.h"
+//#include <iostream>
+//#include "assignment1.h"
+//#include "week2quiz1.h"
+//#include "week2lab1.h"
+//#include "week2lab2.h"
+//#include "assignment2.h"
+#include "week2quiz2.h"
 
 int main()
 {
-	assignment1();
-	week2quiz1();
-	week2lab1();
-	week2lab2();
-	assignment2();
+	//assignment1();
+	//week2quiz1();
+	//week2lab1();
+	//week2lab2();
+	//assignment2();
+	week2quiz2();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

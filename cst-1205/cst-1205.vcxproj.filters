@@ -28,6 +28,9 @@
     <Filter Include="Source Files\week2lab2">
       <UniqueIdentifier>{9d6fc602-942e-4d09-ab25-e4f413144778}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\week2quiz2">
+      <UniqueIdentifier>{2553e57b-8e68-4ea9-8188-808985d79422}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -48,6 +51,9 @@
     <ClCompile Include="week2lab2.cpp">
       <Filter>Source Files\week2lab2</Filter>
     </ClCompile>
+    <ClCompile Include="week2quiz2.cpp">
+      <Filter>Source Files\week2quiz2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -64,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="week2lab2.h">
       <Filter>Source Files\week2lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="week2quiz2.h">
+      <Filter>Source Files\week2quiz2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
