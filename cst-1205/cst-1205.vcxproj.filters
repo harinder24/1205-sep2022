@@ -31,6 +31,12 @@
     <Filter Include="Source Files\week2quiz2">
       <UniqueIdentifier>{2553e57b-8e68-4ea9-8188-808985d79422}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\assignment3part1">
+      <UniqueIdentifier>{9f54d9ab-cd89-48a3-9dff-8beaf8bf778d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assignment3part2">
+      <UniqueIdentifier>{ab5aaa70-29e4-48c6-b186-b7b694360955}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -39,7 +45,7 @@
     <ClCompile Include="assignment1.cpp">
       <Filter>Source Files\assignment1</Filter>
     </ClCompile>
-    <ClCompile Include="assignment2.cpp">
+    <ClCompile Include="assignment2_harinderpal_sran.cpp">
       <Filter>Source Files\assignment2</Filter>
     </ClCompile>
     <ClCompile Include="week2lab1.cpp">
@@ -53,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="week2quiz2.cpp">
       <Filter>Source Files\week2quiz2</Filter>
+    </ClCompile>
+    <ClCompile Include="Print_harinderpal_sran.cpp">
+      <Filter>Source Files\assignment3part1</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculateAverage_harinderpal-sran.cpp">
+      <Filter>Source Files\assignment3part2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +85,12 @@
     </ClInclude>
     <ClInclude Include="week2quiz2.h">
       <Filter>Source Files\week2quiz2</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.h">
+      <Filter>Source Files\assignment3part1</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculateAverage.h">
+      <Filter>Source Files\assignment3part2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
