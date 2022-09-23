@@ -146,6 +146,7 @@
     <ClCompile Include="assignment3part1_harinder.cpp" />
     <ClCompile Include="quiz3.cpp" />
     <ClCompile Include="quiz4.cpp" />
+    <ClCompile Include="quiz4b.cpp" />
     <ClCompile Include="week2lab1.cpp" />
     <ClCompile Include="week2lab2.cpp" />
     <ClCompile Include="week2quiz1.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="assignment3part1_harinder.h" />
     <ClInclude Include="quiz3.h" />
     <ClInclude Include="quiz4.h" />
+    <ClInclude Include="quiz4b.h" />
     <ClInclude Include="week2lab1.h" />
     <ClInclude Include="week2lab2.h" />
     <ClInclude Include="week2quiz1.h" />

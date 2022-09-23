@@ -3,7 +3,7 @@
 void quiz3(bool* myarr, int length) {
 
 	for (int i = 0; i < length; i++) {
-		if (true) {
+		if (*(myarr + i) == true) {
 			std::cout << "This is true\n";
 		}
 		else{
