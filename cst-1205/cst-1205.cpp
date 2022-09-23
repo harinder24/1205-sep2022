@@ -10,6 +10,8 @@
 #include "week2quiz2.h"
 #include "assignment3part1_harinder.h"
 #include "assignment3part2_harinder.h"
+#include "quiz3.h"
+#include "quiz4.h"
 int main()
 {
 	assignment1();
@@ -26,6 +28,14 @@ int main()
 	int myarr2[10] = { 42, 34, 54, 65, 23, 45, 78, 12, 11, 2 };
 	int* locator2 = myarr2;
 	std::cout << "Average = " << CalculateAverage(locator2, 10);
+
+	bool myarr3[] = { true, false, true, true, false };
+	bool* locator3 = myarr3;
+	quiz3(locator3, sizeof(myarr3));
+
+	bool myarr4[] = { true, false, true, true, false };
+	bool* locator4 = myarr4;
+	quiz4(locator4, sizeof(myarr4), true);
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

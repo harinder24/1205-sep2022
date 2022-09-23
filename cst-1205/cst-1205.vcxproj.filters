@@ -37,6 +37,12 @@
     <Filter Include="Source Files\assignment3part2">
       <UniqueIdentifier>{ab5aaa70-29e4-48c6-b186-b7b694360955}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\quiz3">
+      <UniqueIdentifier>{65a0b0fe-6ff5-4ba8-a0d1-d1c66209bcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\quiz4">
+      <UniqueIdentifier>{c9eb0580-dbf0-4865-8f2a-7f419d7ebc1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -66,6 +72,12 @@
     <ClCompile Include="assignment3part2_harinder.cpp">
       <Filter>Source Files\assignment3part2</Filter>
     </ClCompile>
+    <ClCompile Include="quiz4.cpp">
+      <Filter>Source Files\quiz4</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz3.cpp">
+      <Filter>Source Files\quiz3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -91,6 +103,12 @@
     </ClInclude>
     <ClInclude Include="assignment3part2_harinder.h">
       <Filter>Source Files\assignment3part2</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz4.h">
+      <Filter>Source Files\quiz4</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz3.h">
+      <Filter>Source Files\quiz3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
