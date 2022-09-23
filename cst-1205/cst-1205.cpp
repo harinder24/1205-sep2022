@@ -8,8 +8,8 @@
 #include "week2lab2.h"
 #include "assignment2.h"
 #include "week2quiz2.h"
-#include "Print.h"
-#include "CalculateAverage.h"
+#include "assignment3part1_harinder.h"
+#include "assignment3part2_harinder.h"
 int main()
 {
 	assignment1();
@@ -25,7 +25,7 @@ int main()
 
 	int myarr2[10] = { 42, 34, 54, 65, 23, 45, 78, 12, 11, 2 };
 	int* locator2 = myarr2;
-	std::cout << CalculateAverage(locator2, 10);
+	std::cout << "Average = " << CalculateAverage(locator2, 10);
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -60,10 +60,10 @@
     <ClCompile Include="week2quiz2.cpp">
       <Filter>Source Files\week2quiz2</Filter>
     </ClCompile>
-    <ClCompile Include="Print_harinderpal_sran.cpp">
+    <ClCompile Include="assignment3part1_harinder.cpp">
       <Filter>Source Files\assignment3part1</Filter>
     </ClCompile>
-    <ClCompile Include="CalculateAverage_harinderpal-sran.cpp">
+    <ClCompile Include="assignment3part2_harinder.cpp">
       <Filter>Source Files\assignment3part2</Filter>
     </ClCompile>
   </ItemGroup>
@@ -86,10 +86,10 @@
     <ClInclude Include="week2quiz2.h">
       <Filter>Source Files\week2quiz2</Filter>
     </ClInclude>
-    <ClInclude Include="Print.h">
+    <ClInclude Include="assignment3part1_harinder.h">
       <Filter>Source Files\assignment3part1</Filter>
     </ClInclude>
-    <ClInclude Include="CalculateAverage.h">
+    <ClInclude Include="assignment3part2_harinder.h">
       <Filter>Source Files\assignment3part2</Filter>
     </ClInclude>
   </ItemGroup>

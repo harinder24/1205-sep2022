@@ -141,9 +141,9 @@
   <ItemGroup>
     <ClCompile Include="assignment1.cpp" />
     <ClCompile Include="assignment2_harinderpal_sran.cpp" />
-    <ClCompile Include="CalculateAverage_harinderpal-sran.cpp" />
+    <ClCompile Include="assignment3part2_harinder.cpp" />
     <ClCompile Include="cst-1205.cpp" />
-    <ClCompile Include="Print_harinderpal_sran.cpp" />
+    <ClCompile Include="assignment3part1_harinder.cpp" />
     <ClCompile Include="week2lab1.cpp" />
     <ClCompile Include="week2lab2.cpp" />
     <ClCompile Include="week2quiz1.cpp" />
@@ -152,8 +152,8 @@
   <ItemGroup>
     <ClInclude Include="assignment1.h" />
     <ClInclude Include="assignment2.h" />
-    <ClInclude Include="CalculateAverage.h" />
-    <ClInclude Include="Print.h" />
+    <ClInclude Include="assignment3part2_harinder.h" />
+    <ClInclude Include="assignment3part1_harinder.h" />
     <ClInclude Include="week2lab1.h" />
     <ClInclude Include="week2lab2.h" />
     <ClInclude Include="week2quiz1.h" />
