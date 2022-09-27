@@ -12,7 +12,8 @@
 //#include "assignment3part2_harinder.h"
 //#include "quiz3.h"
 //#include "quiz4.h"
-#include "quiz4b.h"
+//#include "quiz4b.h"
+#include "quiz5.h"
 int main()
 {
 	//assignment1();
@@ -38,7 +39,8 @@ int main()
 	//bool* locator4 = myarr4;
 	//quiz4(locator4, sizeof(myarr4), true);
 
-	quiz4b();
+	//quiz4b();
+	quiz5();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
