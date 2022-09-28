@@ -13,7 +13,8 @@
 //#include "quiz3.h"
 //#include "quiz4.h"
 //#include "quiz4b.h"
-#include "quiz5.h"
+//#include "quiz5.h"
+#include "assignment4a.h"
 int main()
 {
 	//assignment1();
@@ -40,7 +41,10 @@ int main()
 	//quiz4(locator4, sizeof(myarr4), true);
 
 	//quiz4b();
-	quiz5();
+	//quiz5();
+
+	char str[150] = "striRNG";
+	assignment4a(str);
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
