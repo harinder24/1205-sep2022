@@ -14,9 +14,11 @@ void assignment4a(char str[150]) {
 		}
 	}
 	else if (strcmp(user_input, lower) == 0) {
-		for (int i = 0; str[i] != '\0'; i++) {
-			if (str[i] >= 'A' && str[i] <= 'Z')
+		while (str[i] != '\0') {
+			if (str[i] >= 'A' && str[i] <= 'Z') {
 				str[i] = str[i] + 32;
+			}
+			i++;
 		}
 	}
 	else {

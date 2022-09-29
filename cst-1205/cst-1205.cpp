@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <cstring>
 //#include "assignment1.h"
 //#include "week2quiz1.h"
 //#include "week2lab1.h"
@@ -14,7 +15,8 @@
 //#include "quiz4.h"
 //#include "quiz4b.h"
 //#include "quiz5.h"
-#include "assignment4a.h"
+//#include "assignment4a.h"
+#include "assignment4b.h"
 int main()
 {
 	//assignment1();
@@ -43,8 +45,13 @@ int main()
 	//quiz4b();
 	//quiz5();
 
-	char str[150] = "striRNG";
-	assignment4a(str);
+	//char str[150] = "striRNG";
+	//assignment4a(str);
+
+	char str1[150] = "strING";
+	char* mystr = str1;
+	assignment4b(mystr);
+
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

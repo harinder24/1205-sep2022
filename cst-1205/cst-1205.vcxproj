@@ -143,6 +143,7 @@
     <ClCompile Include="assignment2_harinderpal_sran.cpp" />
     <ClCompile Include="assignment3part2_harinder.cpp" />
     <ClCompile Include="assignment4a.cpp" />
+    <ClCompile Include="assignment4b.cpp" />
     <ClCompile Include="cst-1205.cpp" />
     <ClCompile Include="assignment3part1_harinder.cpp" />
     <ClCompile Include="quiz3.cpp" />
@@ -160,6 +161,7 @@
     <ClInclude Include="assignment3part2_harinder.h" />
     <ClInclude Include="assignment3part1_harinder.h" />
     <ClInclude Include="assignment4a.h" />
+    <ClInclude Include="assignment4b.h" />
     <ClInclude Include="quiz3.h" />
     <ClInclude Include="quiz4.h" />
     <ClInclude Include="quiz4b.h" />

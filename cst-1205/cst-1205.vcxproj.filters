@@ -52,6 +52,9 @@
     <Filter Include="Source Files\assignment4a">
       <UniqueIdentifier>{84905df8-48ea-46a0-9516-66105916dc0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\assignment4b">
+      <UniqueIdentifier>{9f24e50d-8cfb-4d3f-abf4-af29d23b67f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -96,6 +99,9 @@
     <ClCompile Include="assignment4a.cpp">
       <Filter>Source Files\assignment4a</Filter>
     </ClCompile>
+    <ClCompile Include="assignment4b.cpp">
+      <Filter>Source Files\assignment4b</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -136,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="assignment4a.h">
       <Filter>Source Files\assignment4a</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment4b.h">
+      <Filter>Source Files\assignment4b</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
