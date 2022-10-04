@@ -16,7 +16,8 @@
 //#include "quiz4b.h"
 //#include "quiz5.h"
 //#include "assignment4a.h"
-#include "assignment4b.h"
+//#include "assignment4b.h"
+#include "week5exercise1.h"
 int main()
 {
 	//assignment1();
@@ -48,9 +49,11 @@ int main()
 	//char str[150] = "striRNG";
 	//assignment4a(str);
 
-	char str1[150] = "strING";
-	char* mystr = str1;
-	assignment4b(mystr);
+	//char str1[150] = "strING";
+	//char* mystr = str1;
+	//assignment4b(mystr);
+
+	week5exercise1();
 
 };
 

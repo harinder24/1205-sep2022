@@ -55,6 +55,9 @@
     <Filter Include="Source Files\assignment4b">
       <UniqueIdentifier>{9f24e50d-8cfb-4d3f-abf4-af29d23b67f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\week5exercise1">
+      <UniqueIdentifier>{ed75f2b5-dc43-492d-a886-1fecc9e96fd3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -102,6 +105,9 @@
     <ClCompile Include="assignment4b.cpp">
       <Filter>Source Files\assignment4b</Filter>
     </ClCompile>
+    <ClCompile Include="week5exercise1.cpp">
+      <Filter>Source Files\week5exercise1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -145,6 +151,9 @@
     </ClInclude>
     <ClInclude Include="assignment4b.h">
       <Filter>Source Files\assignment4b</Filter>
+    </ClInclude>
+    <ClInclude Include="week5exercise1.h">
+      <Filter>Source Files\week5exercise1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

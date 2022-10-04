@@ -154,6 +154,7 @@
     <ClCompile Include="week2lab2.cpp" />
     <ClCompile Include="week2quiz1.cpp" />
     <ClCompile Include="week2quiz2.cpp" />
+    <ClCompile Include="week5exercise1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="week2lab2.h" />
     <ClInclude Include="week2quiz1.h" />
     <ClInclude Include="week2quiz2.h" />
+    <ClInclude Include="week5exercise1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
