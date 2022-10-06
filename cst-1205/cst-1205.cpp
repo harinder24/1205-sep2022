@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <cstring>
+#include <string>
+using namespace std;
 //#include "assignment1.h"
 //#include "week2quiz1.h"
 //#include "week2lab1.h"
@@ -17,7 +19,8 @@
 //#include "quiz5.h"
 //#include "assignment4a.h"
 //#include "assignment4b.h"
-#include "week5exercise1.h"
+//#include "week5exercise1.h"
+#include "assignment5.h"
 int main()
 {
 	//assignment1();
@@ -53,7 +56,9 @@ int main()
 	//char* mystr = str1;
 	//assignment4b(mystr);
 
-	week5exercise1();
+	//week5exercise1();
+
+	assignment5();
 
 };
 
