@@ -20,7 +20,8 @@ using namespace std;
 //#include "assignment4a.h"
 //#include "assignment4b.h"
 //#include "week5exercise1.h"
-#include "assignment5.h"
+//#include "assignment5.h"
+#include "guessingGame.h"
 int main()
 {
 	//assignment1();
@@ -58,8 +59,9 @@ int main()
 
 	//week5exercise1();
 
-	assignment5();
+	//assignment5();
 
+	guessingGame();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
