@@ -9,10 +9,10 @@ void guessingGame() {
 	srand(time(NULL));
 	unsigned int number = rand() % 10;
 	if (guessNumber == number) {
-		cout << "\nCongratulation you guessed right number";
+		cout << "\nCongratulation you guessed right number that is " << number;
 	}
 	else {
-		cout << "\n You guessed a wrong number, correct number was " << number;
+		cout << "\n Your guess is" << guessNumber << ", correct number is " << number;
 	}
 
 
