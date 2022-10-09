@@ -8,7 +8,6 @@ void assignment6a() {
 	bool myBool;
 	srand(time(NULL));
 	unsigned int number = rand() % 50;
-	cout << number ;
 	char character;
 	int gameWon = 0;
 	int gameLost = 0;
@@ -20,12 +19,14 @@ void assignment6a() {
 		cin >> userInput;
 		if(userInput != number && n == 20){
 			gameLost++;
-			cout << "\nGame over you reached max guess limit of 20 and number was " << number << "\nGame won = " << gameWon << " and game lost = " << gameLost <<
+			cout << "\nGame over you reached max guess limit of 20 and secret number was " << number << "\nGame won = " << gameWon << " and game lost = " << gameLost <<
 				"\nTo play again type 'Y' and 'N' to stop playing: ";
 			cin >> character ;
 			if (character == 'Y' || character == 'y') {
 				n = -1;
 				cout << "\nGood luck this time";
+				number = rand() % 50;
+				myBool = true;
 			}
 			else if (character == 'N' || character == 'n') {
 				cout << "\nThank you for playing";
@@ -41,6 +42,7 @@ void assignment6a() {
 			if (character == 'Y' || character == 'y') {
 				n = -1;
 				cout << "\nGood luck";
+				number = rand() % 50;
 				myBool = true;
 			
 			}
