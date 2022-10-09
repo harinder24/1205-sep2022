@@ -64,6 +64,9 @@
     <Filter Include="Source Files\guessingGame">
       <UniqueIdentifier>{d015928a-7679-4438-8320-708f893954d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\assignment6a">
+      <UniqueIdentifier>{0ac4ffee-3b6a-452c-b140-285519ed3c84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -120,6 +123,9 @@
     <ClCompile Include="guessingGame.cpp">
       <Filter>Source Files\guessingGame</Filter>
     </ClCompile>
+    <ClCompile Include="assignment6a.cpp">
+      <Filter>Source Files\assignment6a</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -172,6 +178,9 @@
     </ClInclude>
     <ClInclude Include="guessingGame.h">
       <Filter>Source Files\guessingGame</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment6a.h">
+      <Filter>Source Files\assignment6a</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
