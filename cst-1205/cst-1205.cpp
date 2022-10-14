@@ -22,7 +22,8 @@ using namespace std;
 //#include "week5exercise1.h"
 //#include "assignment5.h"
 //#include "guessingGame.h"
-#include "assignment6a.h"
+//#include "assignment6a.h"
+#include "quiz7.h"
 int main()
 {
 	//assignment1();
@@ -64,7 +65,9 @@ int main()
 
 	//guessingGame();
 
-	assignment6a();
+	//assignment6a();
+
+	quiz7();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

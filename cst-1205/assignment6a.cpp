@@ -15,8 +15,12 @@ void assignment6a() {
 	do
 	{
 		myBool = false;
-		cout << "\nGuess a Number: ";
+		do
+		{
+		
+		cout << "\nGuess a Number between 0 and 49: ";
 		cin >> userInput;
+		} while ((userInput < 50 && userInput >= 0) == false);
 		if(userInput != number && n == 20){
 			gameLost++;
 			cout << "\nGame over you reached max guess limit of 20 and secret number was " << number << "\nGame won = " << gameWon << " and game lost = " << gameLost <<

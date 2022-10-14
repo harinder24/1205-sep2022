@@ -67,6 +67,9 @@
     <Filter Include="Source Files\assignment6a">
       <UniqueIdentifier>{0ac4ffee-3b6a-452c-b140-285519ed3c84}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\quiz7">
+      <UniqueIdentifier>{30f62a8f-4ad4-44f8-b77f-d6beaf62e9f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -126,6 +129,9 @@
     <ClCompile Include="assignment6a.cpp">
       <Filter>Source Files\assignment6a</Filter>
     </ClCompile>
+    <ClCompile Include="quiz7.cpp">
+      <Filter>Source Files\quiz7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -181,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="assignment6a.h">
       <Filter>Source Files\assignment6a</Filter>
+    </ClInclude>
+    <ClInclude Include="quiz7.h">
+      <Filter>Source Files\quiz7</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
