@@ -70,6 +70,12 @@
     <Filter Include="Source Files\quiz7">
       <UniqueIdentifier>{30f62a8f-4ad4-44f8-b77f-d6beaf62e9f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\pointexercise2">
+      <UniqueIdentifier>{30f601d6-e6d2-433d-9163-e057c4167913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pointexercise1">
+      <UniqueIdentifier>{addba84e-8767-4fb9-afbf-cbed8d08e277}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -132,6 +138,12 @@
     <ClCompile Include="quiz7.cpp">
       <Filter>Source Files\quiz7</Filter>
     </ClCompile>
+    <ClCompile Include="pointexercise1.cpp">
+      <Filter>Source Files\pointexercise1</Filter>
+    </ClCompile>
+    <ClCompile Include="pointexercise2.cpp">
+      <Filter>Source Files\pointexercise2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -190,6 +202,12 @@
     </ClInclude>
     <ClInclude Include="quiz7.h">
       <Filter>Source Files\quiz7</Filter>
+    </ClInclude>
+    <ClInclude Include="pointexercise1.h">
+      <Filter>Source Files\pointexercise1</Filter>
+    </ClInclude>
+    <ClInclude Include="pointexercise2.h">
+      <Filter>Source Files\pointexercise2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

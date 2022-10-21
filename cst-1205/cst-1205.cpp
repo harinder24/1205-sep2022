@@ -5,24 +5,24 @@
 #include <cstring>
 #include <string>
 using namespace std;
-#include "assignment1.h"
-#include "week2quiz1.h"
-#include "week2lab1.h"
-#include "week2lab2.h"
-#include "assignment2.h"
-#include "week2quiz2.h"
-#include "assignment3part1_harinder.h"
-#include "assignment3part2_harinder.h"
-#include "quiz3.h"
-#include "quiz4.h"
-#include "quiz4b.h"
-#include "quiz5.h"
-#include "assignment4a.h"
-#include "assignment4b.h"
-#include "week5exercise1.h"
-#include "assignment5.h"
-#include "guessingGame.h"
-#include "assignment6a.h"
+//#include "assignment1.h"
+//#include "week2quiz1.h"
+//#include "week2lab1.h"
+//#include "week2lab2.h"
+//#include "assignment2.h"
+//#include "week2quiz2.h"
+//#include "assignment3part1_harinder.h"
+//#include "assignment3part2_harinder.h"
+//#include "quiz3.h"
+//#include "quiz4.h"
+//#include "quiz4b.h"
+//#include "quiz5.h"
+//#include "assignment4a.h"
+//#include "assignment4b.h"
+//#include "week5exercise1.h"
+//#include "assignment5.h"
+//#include "guessingGame.h"
+//#include "assignment6a.h"
 #include "quiz7.h"
 int main()
 {
@@ -67,7 +67,17 @@ int main()
 
 	//assignment6a();
 
-	quiz7();
+	//quiz7();
+
+	//Point p1;
+	//p1.SetX(7);
+	//p1.SetY(9);
+	//std::cout << "X is " << p1.GetX() << " and Y is " << p1.GetY();
+
+	Point2 p2;
+	p2.SetX(700);
+	p2.SetY(-900);
+	std::cout << "X is " << p2.GetX() << " and Y is " << p2.GetY();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
