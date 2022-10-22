@@ -26,6 +26,7 @@ using namespace std;
 #include "quiz7.h"
 #include "pointexercise1.h"
 #include "pointexercise2.h"
+#include "pointexercise3.h"
 int main()
 {
 	//assignment1();
@@ -69,7 +70,7 @@ int main()
 
 	//assignment6a();
 
-	quiz7();
+	//quiz7();
 
 	//Point p1;
 	//p1.SetX(7);
@@ -80,6 +81,10 @@ int main()
 	//p2.SetX(700);
 	//p2.SetY(-900);
 	//std::cout << "X is " << p2.GetX() << " and Y is " << p2.GetY();
+	Point3 p3;
+	//std::cout << p3.pointArr();
+	//output += "x = " + to_string(x) + ", y = " + to_string(y) + "\n";
+	cout << p3.pointArr();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
