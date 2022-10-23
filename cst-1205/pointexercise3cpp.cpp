@@ -8,29 +8,26 @@ void Point3::printDetails()
 }
 Point3 ArrOfObj[10];
 int Point3::pointArr(){
-	Point3 obj;
-
-
-	obj.x = 1;
-	obj.y = 0;
+	this->x = 1;
+	this->y = 0;
 
 
 	int length = sizeof(ArrOfObj);
 	for (int i = 0; i < 10; i++) {
 		if (i == 0) {
-			obj.x = 1;
-			obj.y = i;
+			this->x = 1;
+			this->y = i;
 		}
 		else {
-			obj.x *= 2;
-			obj.y += 1;
+			this->x *= 2;
+			this->y += 1;
 		}
-		ArrOfObj[i].Point31(obj.x, obj.y);
+		ArrOfObj[i].Point33(this->x, this->y);
 	}
 	for (int i = 0; i < 10; i++) {
 		ArrOfObj[i].printDetails();
 	}
-	return 0;
+	exit(0);
 }
 
 

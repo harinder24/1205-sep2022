@@ -9,6 +9,10 @@ private:
 	int x = 0;
 	int y = 0;
 
+	void Point33(int c, int d) {
+		this->x = c;
+		this->y = d;
+	}
 
 	void printDetails();
 
@@ -16,9 +20,7 @@ public:
 	
 	int pointArr();
 
-	void Point31(int c, int d) {
-		x = c;
-		y = d;
-	}
+
+
 
 };
