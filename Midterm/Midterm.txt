@@ -103,4 +103,44 @@ Otherwise, writes the string "i: start processing" to it
   project lumpsum
 };
 6. false
-		
+7. bool pointer(ptr*)
+   {
+	   if(ptr* == 'a')
+	   {
+	      return true;
+	   }
+	   else if(ptr* == 'e')
+	   {
+	      return true;
+	   }
+	   else if(ptr* == 'i')
+	   {
+	      return true;
+	   }
+	   else if(ptr* == 'o')
+	   {
+	      return true;
+	   }
+	   else if(ptr* == 'u')
+	   {
+	      return true;
+	   }
+	   else
+	   {
+	   return false;
+	   }
+   }
+8. class Employee 
+	{
+		private:
+			int ID;
+			string first name; 
+			string last name; 
+			int year joined; 
+			string address; 
+			string position;
+			string department;
+			
+		public;
+			
+	}
