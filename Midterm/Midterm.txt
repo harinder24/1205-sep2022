@@ -1,0 +1,106 @@
+MIDTERM - Sept 2022 - Intro to C++ Prog.		
+		
+		
+1 - What does this line of code do?		
+std::cout << "Type your name" << std::endl;		
+		
+A) Draws an edit box with a prompt of "Type your name" (without the quotes)		
+B) This line will not compile		
+C) Prints "Type your name" (without the quotes) on the screen and moves the cursor down one line		
+D) Declares a string called cout and initializes it to "Type your name" (without the quotes)		
+		
+2 - If you declare a variable using the keyword auto, for example auto i = 3; the type of the variable is:		
+		
+A) A special type that can hold many kinds of data		
+B) A generic pointer		
+C) The default type you have set for your application		
+D) Deduced by the compiler from the initial value		
+		
+3 - How do you write a conditional expression that means "a and b are not equal"?		
+		
+A) a != b		
+B) a ~~ b		
+C) !a == !b		
+D) a <> b		
+		
+4 - What does this line of code do?		
+    *p++ = 0;		
+    		
+A) Declares a pointer and sets the value to zero		
+B) Assign zero to the pointer		
+C) Assign 0 to the memory the pointer is pointing to and then increments the pointer		
+D) Increments the pointer and sssign 0 to the memory the pointer is pointing to		
+		
+5 - We know employee salaries in a company may be calculated based on three different criteria.		
+    Hourly rate, fixed monthly salary or project lumpsum.		
+    A senior programmer wants you to creat an enumerated list to reflect these three options in the system.		
+    Hint: use enum to define the three options		
+    		
+6 - What is the result returned from the following funcltion if the value passed is 23.		
+    bool Func1(int num)		
+    {		
+        int temp = num % 2;		
+		
+        if (temp == 0)		
+        {		
+            return true;		
+        }		
+        		
+        return false;		
+    }		
+    		
+7 - Write a function that receives a character pointer and determines if the character		
+    the pointer is pointing to is a vowel or not.		
+    Vowels are the letters "aeiou"		
+    		
+8 - The information needed to save an Employee in a system is		
+    ID, first name, last name, year joined, address, position and department.		
+    Write a class to encapsulate Employee information.		
+		
+9 - Write the copy constructor function for the following Point class.		
+    		
+class Point		
+{		
+    // Data Members		
+private:		
+    int x;		
+    int y;		
+		
+    // Function Members		
+public:		
+    Point();		
+    Point(int x, int y);		
+    Point(Point const &src);		
+};		
+		
+10 - What does the following lines of code result in.		
+    #include <iostream>		
+    #include <fstream>		
+    using namespace std;		
+    void Func()		
+    {		
+        ofstream fout("systemf/text.txt");		
+        fout << "i: start processing" << std::endl;		
+        fout2.close();		
+    }		
+		
+A) It will not compile.		
+B) Opens the file text.txt and adds the string "i: start processing" to the end of the file.		
+C) Opens file text.txt and writes the string "i: start processing" to it		
+    even if the file already exists. It essentially overwrites the file if it already exists.		
+    And it will create the file and write the string if the file does not exist.		
+D) Tries to open file text.txt and if it exists, throws an exception.		
+Otherwise, writes the string "i: start processing" to it		
+-----------------------------------------------------------------------------------------------------------------------
+1. c
+2. d
+3. a
+4. d
+5. enum salary 
+{
+  hourly rate, 
+  fixed monthly salary,
+  project lumpsum
+};
+6. false
+		
