@@ -142,5 +142,11 @@ Otherwise, writes the string "i: start processing" to it
 			string department;
 			
 		public;
+			Employee();
 			
 	}
+9. Point(Point const &src){
+	x = src.x;
+	y = src.y;
+	}
+10. c
