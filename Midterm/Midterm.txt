@@ -1,4 +1,9 @@
+===========================
 MIDTERM - Sept 2022 - Intro to C++ Prog.		
+=======================================
+Mark: 80/100
+npd stands for "No Points are Deducted"
+=======================================
 		
 		
 1 - What does this line of code do?		
@@ -92,20 +97,24 @@ C) Opens file text.txt and writes the string "i: start processing" to it
 D) Tries to open file text.txt and if it exists, throws an exception.		
 Otherwise, writes the string "i: start processing" to it		
 -----------------------------------------------------------------------------------------------------------------------
+=======================================
+Mark: 80/100
+npd stands for "No Points are Deducted"
+=======================================
 1. c
 2. d
 3. a
-4. d
-5. enum salary 
+4. d				// <<<<< correct answer is (C) (-10) >>>>>					
+5. enum salary			// <<<<< you should use "enum class" (npd) >>>>>
 {
   hourly rate, 
-  fixed monthly salary,
-  project lumpsum
+  fixed monthly salary,  	// <<<<< can't have blanks in names (-5) >>>>>
+  project lumpsum		// <<<<< can't have blanks in names (npd) >>>>>
 };
 6. false
-7. bool pointer(ptr*)
+7. bool pointer(ptr*)		// <<<<< bool pointer(char*  ptr) (npd) >>>>>	
    {
-	   if(ptr* == 'a')
+	   if(ptr* == 'a')	// <<<<< pointer's usage is: *ptr (npd) >>>>>
 	   {
 	      return true;
 	   }
@@ -134,9 +143,9 @@ Otherwise, writes the string "i: start processing" to it
 	{
 		private:
 			int ID;
-			string first name; 
-			string last name; 
-			int year joined; 
+			string first name;	// <<<<< can't have blanks in names (-5) >>>>>
+			string last name; 	// <<<<< same as above (npd) >>>>>
+			int year joined; 	// <<<<< same as above (npd) >>>>>
 			string address; 
 			string position;
 			string department;
@@ -149,4 +158,4 @@ Otherwise, writes the string "i: start processing" to it
 	x = src.x;
 	y = src.y;
 	}
-10. c
+10. c	// <<<<< correct answer is (A) (npd) >>>>>
