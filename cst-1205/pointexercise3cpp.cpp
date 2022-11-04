@@ -7,12 +7,18 @@ void Point3::printDetails()
 	cout << "x = " << x << ", " << "y = " << y << endl;
 }
 Point3 ArrOfObj[10];
-int Point3::pointArr(){
+Point3::Point3()
+{
+}
+Point3::Point3(int x, int y)
+{
+	this->x = x;
+	this->y = y;
+}
+void Point3::pointArr(){
 	this->x = 1;
 	this->y = 0;
 
-
-	int length = sizeof(ArrOfObj);
 	for (int i = 0; i < 10; i++) {
 		if (i == 0) {
 			this->x = 1;
@@ -22,12 +28,9 @@ int Point3::pointArr(){
 			this->x *= 2;
 			this->y += 1;
 		}
-		ArrOfObj[i].Point33(this->x, this->y);
+		ArrOfObj[i] = Point3(this->x, this->y);
+		cout << "x = " << x << ", " << "y = " << y << endl;
 	}
-	for (int i = 0; i < 10; i++) {
-		ArrOfObj[i].printDetails();
-	}
-	exit(0);
 }
 
 

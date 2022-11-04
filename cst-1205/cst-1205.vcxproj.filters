@@ -79,6 +79,9 @@
     <Filter Include="Source Files\pointexercise3">
       <UniqueIdentifier>{9c2e5040-03c3-48f7-8880-6e513dd442bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\fraction">
+      <UniqueIdentifier>{17699903-55c1-4291-a36f-972ee6013544}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -150,6 +153,9 @@
     <ClCompile Include="pointexercise3cpp.cpp">
       <Filter>Source Files\pointexercise3</Filter>
     </ClCompile>
+    <ClCompile Include="fraction.cpp">
+      <Filter>Source Files\fraction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -217,6 +223,9 @@
     </ClInclude>
     <ClInclude Include="pointexercise3.h">
       <Filter>Source Files\pointexercise3</Filter>
+    </ClInclude>
+    <ClInclude Include="fraction.h">
+      <Filter>Source Files\fraction</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
