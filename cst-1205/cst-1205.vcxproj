@@ -146,6 +146,7 @@
     <ClCompile Include="assignment4b.cpp" />
     <ClCompile Include="assignment5.cpp" />
     <ClCompile Include="assignment6a.cpp" />
+    <ClCompile Include="assignment9_1.cpp" />
     <ClCompile Include="cst-1205.cpp" />
     <ClCompile Include="assignment3part1_harinder.cpp" />
     <ClCompile Include="fraction.cpp" />
@@ -173,6 +174,7 @@
     <ClInclude Include="assignment4b.h" />
     <ClInclude Include="assignment5.h" />
     <ClInclude Include="assignment6a.h" />
+    <ClInclude Include="assignment9_1.h" />
     <ClInclude Include="fraction.h" />
     <ClInclude Include="guessingGame.h" />
     <ClInclude Include="pointexercise3.h" />

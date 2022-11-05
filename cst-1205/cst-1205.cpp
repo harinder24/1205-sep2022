@@ -1,9 +1,8 @@
-// cst-1205.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <cstring>
 #include <string>
+#include<list>
 using namespace std;
 //#include "assignment1.h"
 //#include "week2quiz1.h"
@@ -28,6 +27,7 @@ using namespace std;
 #include "pointexercise2.h"
 #include "pointexercise3.h"
 #include "fraction.h"
+#include "assignment9_1.h"
 int main()
 {
 	//assignment1();
@@ -87,12 +87,20 @@ int main()
 	//Point3 p3;
 	//p3.pointArr();
 
-	Fraction f1;
+	//Fraction f1;
+	//f1.Set(12, 18);
+	//cout << "Denominator is = " << f1.GetDen() << " and " << "Numerator is = " << f1.GetNum() << endl;
+	//cout << "Lowest common denominator is " << f1.LowestCommonDenominator(12, 18) << endl;
+	//cout << "Greatest common factor is " << f1.GreatestCommonFactor(12, 18) << endl;
 
-	f1.Set(12, 18);
-	cout << "Denominator is = " << f1.GetDen() << " and " << "Numerator is = " << f1.GetNum() << endl;
-	cout << "Lowest common denominator is " << f1.LowestCommonDenominator(12, 18) << endl;
-	cout << "Greatest common factor is " << f1.GreatestCommonFactor(12, 18) << endl;
+	//list<int> listOfNumbers{ 51, 17, 9, 58, 7 };
+	//listOfNumber(listOfNumbers);
+
+	Node num1(1);
+	Node num2(2, &num1);
+	Node num3(3, &num2);
+	Node num4(4, &num3);
+	nodeListOfNumber(&num4);
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
