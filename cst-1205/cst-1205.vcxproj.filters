@@ -85,6 +85,9 @@
     <Filter Include="Source Files\assignment9_1">
       <UniqueIdentifier>{6b8b6dab-9a95-4ba3-877d-e0849ef900a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{5c118585-fe7e-4434-80c8-86f61b8e7a89}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cst-1205.cpp">
@@ -162,6 +165,12 @@
     <ClCompile Include="assignment9_1.cpp">
       <Filter>Source Files\assignment9_1</Filter>
     </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="assignment1.h">
@@ -235,6 +244,18 @@
     </ClInclude>
     <ClInclude Include="assignment9_1.h">
       <Filter>Source Files\assignment9_1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerOption.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGame.h">
+      <Filter>Source Files\GameManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

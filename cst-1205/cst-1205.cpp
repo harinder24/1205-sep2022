@@ -28,6 +28,7 @@ using namespace std;
 #include "pointexercise3.h"
 #include "fraction.h"
 #include "assignment9_1.h"
+#include "StartGame.h"
 int main()
 {
 	//assignment1();
@@ -96,11 +97,13 @@ int main()
 	//list<int> listOfNumbers{ 51, 17, 9, 58, 7 };
 	//listOfNumber(listOfNumbers);
 
-	Node num1(1);
-	Node num2(2, &num1);
-	Node num3(3, &num2);
-	Node num4(4, &num3);
-	nodeListOfNumber(&num4);
+	//Node num1(1);
+	//Node num2(2, &num1);
+	//Node num3(3, &num2);
+	//Node num4(4, &num3);
+	//nodeListOfNumber(&num4);
+
+	StartGameLoop();
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

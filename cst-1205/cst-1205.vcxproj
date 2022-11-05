@@ -150,7 +150,9 @@
     <ClCompile Include="cst-1205.cpp" />
     <ClCompile Include="assignment3part1_harinder.cpp" />
     <ClCompile Include="fraction.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="guessingGame.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="pointexercise3cpp.cpp" />
     <ClCompile Include="quiz3.cpp" />
     <ClCompile Include="quiz4.cpp" />
@@ -176,13 +178,17 @@
     <ClInclude Include="assignment6a.h" />
     <ClInclude Include="assignment9_1.h" />
     <ClInclude Include="fraction.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="guessingGame.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerOption.h" />
     <ClInclude Include="pointexercise3.h" />
     <ClInclude Include="quiz3.h" />
     <ClInclude Include="quiz4.h" />
     <ClInclude Include="quiz4b.h" />
     <ClInclude Include="quiz5.h" />
     <ClInclude Include="quiz7.h" />
+    <ClInclude Include="StartGame.h" />
     <ClInclude Include="week2lab1.h" />
     <ClInclude Include="week2lab2.h" />
     <ClInclude Include="week2quiz1.h" />
