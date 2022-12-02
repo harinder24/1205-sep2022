@@ -17,11 +17,10 @@
   
 4. 
 namespace using std;
-class User{
-  private:
+class user{
+  public:
     int Id, PhoneNumber;
     string FirstName, LastName, EmailAddress, Address, PostalCode, Country;
-  public:
     User(int id,int phoneNumber, string firstName, string emailAddress, string address, string postalCode, string country){
       bool mybool = true;
     if(id == null || id.empty && phoneNumber == null || phoneNumber.empty && firstName == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null || address.empty && postalCode == null || postalCode.empty && country == null || country.empty )
@@ -72,3 +71,33 @@ class User{
 
 5. D
 6.
+7. inheritance is a concept of classes in c++ where child class inherit data and function from a parent class. for e.g car is a parent class and electric or gas is child class.
+  
+  using namespace std;
+  class car{
+    public: 
+      Int numberOfTires = 4;
+  }
+  class electric : Public car{
+    car c;
+    public:
+    string engineType = "electric";
+    cout << "Car has " << numberOftires << " and it is " << engineType;
+  }
+  
+  8. Virtual and Pure Virtual function are quite similar but Pure Virtual function have = 0 in end or creating a new abstract in another class whereas virtual function can be made in any class.
+  for e.g.
+  virtual - class idk{
+      public:
+        virtual void idkkk() { somecode};
+
+  }
+  pure virtual - 
+  class idk{
+      public:
+        virtual void idkkk() =0;
+
+  }
+  
+  9.
+  
