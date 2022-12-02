@@ -12,4 +12,63 @@
     else{
     return false;}
 }
+3. exception handling occurs during euntime of code when an error occur, it could be a logical mistake or an hardware mis functionality.
+  exceptions are handled by try and catch statement where try is a code that run if there is error it catches and exception is thrown.
+  
+4. 
+namespace using std;
+class User{
+  private:
+    int Id, PhoneNumber;
+    string FirstName, LastName, EmailAddress, Address, PostalCode, Country;
+  public:
+    User(int id,int phoneNumber, string firstName, string emailAddress, string address, string postalCode, string country){
+      bool mybool = true;
+    if(id == null || id.empty && phoneNumber == null || phoneNumber.empty && firstName == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null || address.empty && postalCode == null || postalCode.empty && country == null || country.empty )
+      {
+      mybool = false;
+      throw invalid_argument("All field must not be empty or null");
+      }
+      else if(!emailAddress.contains("@") && !emailAddress.contains(".")){
+      mybool = false;
+        throw invalid_argument("email missing @ or .")
+      }
+      else if (emailAddress.contains("@") && emailAddress.contains(".")){
+        int at = -1;
+        for (int i = 0; i < emailAddress.length(); ++i){
+              if(emailAddress[i] == "@"){
+                at = i;
+              }
+              if (emailAddress[i] == "@" && i == 0){
+              mybool = false;
+                throw invalid_argument("missing username in email")
+              }
+              if(emailAddress[i] == "." && at == -1){
+              mybool = false;
+                throw invalid_argument("@ and . are in opposite order")
+              if(emailAddress[i] == "." && (at-1) == i ){
+              mybool = false;
+                throw invalid_argument("missing domain name in email")
+               }
+              if(emailAddress[i] == "." && emailAddress.length() == i){
+              mybool = false;
+                throw invalid_argument("missing extention name in email")
+              }
+              }
+          if(mybool == true){
+          ID =id;
+          PhoneNumber  = phoneNumber;
+          FirstName = firstName;
+          Emailaddress = emailAddress;
+          Address = address;
+          PostalCode = postalCode;
+          Country = country;
+          }
+      }
+      
+    };
 
+}
+
+5. D
+6.
