@@ -18,9 +18,11 @@
 4. 
 namespace using std;
 class user{
-  public:
+  private:
     int Id, PhoneNumber;
     string FirstName, LastName, EmailAddress, Address, PostalCode, Country;
+  public:
+    
     User(int id,int phoneNumber, string firstName, string emailAddress, string address, string postalCode, string country){
       bool mybool = true;
     if(id == null || id.empty && phoneNumber == null || phoneNumber.empty && firstName == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null || address.empty && postalCode == null || postalCode.empty && country == null || country.empty )
@@ -99,5 +101,40 @@ class user{
 
   }
   
-  9.
+  9. class game {
+    protected:
+    int GameID;
+    string Title;
+    int Year;
+    int Month;
+    float Version;
+    
+    public:
+      game(int gameID, string title, int year, int month, float version){
+        GameID = gameID;
+        Title = title;
+        Year = year;
+        Month = month;
+        Version = version;   
+      }
+      IsCrossPlay();
+   
+  }
+  class IsCrossplay{
+    protected:
+      bool OnlineGame;
+    public:
+      IsCrossplay = (int gameID, string title, int year, int month, float version, bool onlineGame) : game(gameId, title, year, month, version){
+        OnlineGame = onlineGame;
+      }
+      Isfree();
+  }
+  class Isfree{
+    protected:
+    bool free;
+    public:
+      IsFree = (int gameID, string title, int year, int month, float version, bool onlineGame, bool free) : IsCrossplay(gameId, title, year, month, version, onlineGame){
+        Free = free;
+      }
+  }
   
