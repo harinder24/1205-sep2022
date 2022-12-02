@@ -1,11 +1,11 @@
-1. bool isNumber(char* ptr){
+1. bool isNumber(char& ptr){
   if(isdigit(*ptr)){
     return true;
     }
     else{
     return false;}
 }
-2. bool isletter(char* ptr){
+2. bool isletter(char& ptr){
   if(isalpha(*ptr)){
     return true;
     }
@@ -22,7 +22,18 @@ class user{
     int Id, PhoneNumber;
     string FirstName, LastName, EmailAddress, Address, PostalCode, Country;
   public:
-    
+    void getId (){
+      return Id;
+    }
+    void getEmailAddress (){
+      return EmailAddress;
+    }
+    void FirstName (){
+      return FirstName;
+    }
+    void LastName (){
+      return LastName;
+    }
     User(int id,int phoneNumber, string firstName, string emailAddress, string address, string postalCode, string country){
       bool mybool = true;
     if(id == null || id.empty && phoneNumber == null || phoneNumber.empty && firstName == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null || address.empty && postalCode == null || postalCode.empty && country == null || country.empty )
@@ -60,6 +71,7 @@ class user{
           ID =id;
           PhoneNumber  = phoneNumber;
           FirstName = firstName;
+          LastName = lastName;
           Emailaddress = emailAddress;
           Address = address;
           PostalCode = postalCode;
@@ -73,6 +85,23 @@ class user{
 
 5. D
 6.
+using namespace std;
+User u1;
+u1(1234,123456789,"harinder","sran",hss022002@gmail.com,"Somewhere in canada","v3v v3v","canada")
+void isEqual(const User& user){
+  if(*user.getId == u1.getId){
+      cout << "Same id";  
+  }
+  if(*user.getEmailaddress == u1.getEmailaddress){
+      cout << "Same Emailaddress";  
+  }
+  if(*user.getFirstName == u1.getFirstName){
+      cout << "Same FirstName";  
+  }
+  if(*user.getILastName == u1.getLastName){
+      cout << "Same LastName";  
+  }
+}
 7. inheritance is a concept of classes in c++ where child class inherit data and function from a parent class. for e.g car is a parent class and electric or gas is child class.
   
   using namespace std;
