@@ -1,3 +1,15 @@
 1. bool isNumber(char* ptr){
-  if()
+  if(isdigit(*ptr)){
+    return true;
+    }
+    else{
+    return false;}
 }
+2. bool isletter(char* ptr){
+  if(isalpha(*ptr)){
+    return true;
+    }
+    else{
+    return false;}
+}
+
