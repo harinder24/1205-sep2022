@@ -58,7 +58,7 @@ class user{
               if(emailAddress[i] == "." && at == -1){
               mybool = false;
                 throw invalid_argument("@ and . are in opposite order")
-              if(emailAddress[i] == "." && (at-1) == i ){
+              if(emailAddress[i] == "." && (at+1) == i ){
               mybool = false;
                 throw invalid_argument("missing domain name in email")
                }
