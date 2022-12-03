@@ -19,8 +19,8 @@
 namespace using std;
 class user{
   private:
-    int Id, PhoneNumber;
-    string FirstName, LastName, EmailAddress, Address, PostalCode, Country;
+    int Idr;
+    string FirstName, LastName, EmailAddress;
   public:
     void getId (){
       return Id;
@@ -34,9 +34,9 @@ class user{
     void LastName (){
       return LastName;
     }
-    User(int id,int phoneNumber, string firstName, string emailAddress, string address, string postalCode, string country){
+    User(int id,  string lastName,string firstName, string emailAddress){
       bool mybool = true;
-    if(id == null || id.empty && phoneNumber == null || phoneNumber.empty && firstName == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null || address.empty && postalCode == null || postalCode.empty && country == null || country.empty )
+    if(id == null || id.empty && phoneNumber == null || firstName.empty && lastName == null || lastName.empty && emailAddress == null || emailAddress.empty && address == null)
       {
       mybool = false;
       throw invalid_argument("All field must not be empty or null");
@@ -69,13 +69,10 @@ class user{
               }
           if(mybool == true){
           ID =id;
-          PhoneNumber  = phoneNumber;
           FirstName = firstName;
           LastName = lastName;
           Emailaddress = emailAddress;
-          Address = address;
-          PostalCode = postalCode;
-          Country = country;
+     
           }
       }
       
