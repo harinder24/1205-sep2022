@@ -19,7 +19,7 @@
 namespace using std;
 class user{
   private:
-    int Idr;
+    int Id;
     string FirstName, LastName, EmailAddress;
   public:
     void getId (){
@@ -89,7 +89,7 @@ void isEqual(const User& user){
   if(*user.getId == u1.getId){
       cout << "Same id";  
   }
-  if(*user.getEmailaddress == u1.getEmailaddress){
+  if(*user.getEmailaddress.isEqual(u1.getEmailaddress){
       cout << "Same Emailaddress";  
   }
   if(*user.getFirstName == u1.getFirstName){
